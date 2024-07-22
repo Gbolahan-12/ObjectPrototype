@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form{
+    /* display: flex; */
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    background-color: whitesmoke;
+}
+.header{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px 5px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraphs{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 20px;
+    font-family: Geneva, Tahoma;
+}
+ul{
+    list-style: none;
+}
+li{
+    line-height: 2;
+}
+.motherName{
+    display: flex;
+}
