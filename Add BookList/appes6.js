@@ -78,7 +78,7 @@ class  Store {
   books.forEach(function(book){
     const ui = new UI;
 
-    // Add book tp UI
+    // Add book to UI
     ui.addToBookList(book)
   })
 
